@@ -15,7 +15,7 @@ export default function Footer() {
         <div>
           <h2 className="text-xl font-bold text-white">Tu Nombre</h2>
           <p className="mt-2 text-gray-400 leading-relaxed">
-            Desarrollador Web especializado en Frontend.  
+            Desarrollador Web especializado en Frontend y entusiasta de las nuevas tecnologías.  
             Este portafolio está construido con Next.js, Tailwind CSS y animaciones modernas.
           </p>
         </div>
@@ -37,7 +37,7 @@ export default function Footer() {
 
           <div className="flex items-center space-x-5">
             <a
-              href="https://github.com/tu-github"
+              href="https://github.com/Lagguer96"
               target="_blank"
               className="text-2xl text-gray-400 hover:text-purple-400 transition"
             >
@@ -45,7 +45,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://linkedin.com/in/tu-linkedin"
+              href="https://www.linkedin.com/in/marcel-eduardo-lagg/"
               target="_blank"
               className="text-2xl text-gray-400 hover:text-purple-400 transition"
             >
@@ -53,7 +53,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:tu-email@correo.com"
+              href="mailto:medina17796@gmail.com"
               className="text-2xl text-gray-400 hover:text-purple-400 transition"
             >
               <FaEnvelope />
@@ -64,7 +64,7 @@ export default function Footer() {
 
       {/* Línea inferior */}
       <div className="text-center mt-10 text-sm text-gray-500">
-        © {year} Tu Nombre — Todos los derechos reservados.
+        © {year} Lagguer — Todos los derechos reservados.
       </div>
     </footer>
   );
